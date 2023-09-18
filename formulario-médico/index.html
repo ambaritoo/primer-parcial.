@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Médico Hosptal Magallanes</title>
+</head>
+<body>
+    <h1>Formulario Médico</h1>
+    <form>
+        <label for="nombre">Nombre del Paciente:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="enfermedad">Enfermedad:</label>
+        <textarea id="enfermedad" name="enfermedad" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="dias_enfermo">Días de Enfermo (Máximo 10):</label>
+        <input type="number" id="dias_enfermo" name="dias_enfermo" min="1" max="10" required><br><br>
+
+        <label for="fecha_ingreso">Fecha de Ingreso:</label>
+        <input type="date" id="fecha_ingreso" name="fecha_ingreso" required><br><br>
+
+        <label for="nombre_medico">Nombre del Médico que lo Atiende:</label>
+        <input type="text" id="nombre_medico" name="nombre_medico" required><br><br>
+        <img src="log" alt="">
+
+        <input type="submit" value="Enviar">
+        <img src="src/LOGO-HOSPITAL-SANTA-LUCIA-scaled.jpg">
+        <img src="src/hospital.jpeg">
+    </form>
+</body>
+</html>
